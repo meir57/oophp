@@ -52,6 +52,6 @@ final class Main
         print_r((new ZooMagazine($animalHome))->getAnimals(Cat::class));
         
         // отображаем список VIP крокодилов зоо-магазина
-        print_r((new ZooMagazine(new AnimalHomeWrapper($animalHome)))->getAnimals(Dog::class));
+        print_r((new ZooMagazine(new AnimalHomeWrapper($animalHome)))->getAnimals(Crocodile::class));
     }
 }
