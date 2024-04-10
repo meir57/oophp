@@ -47,9 +47,6 @@ final class Main
         
         // отображаем список собак приюта
         print_r($animalHome->getAnimals(Dog::class));
-	   
-	    // отображаем список VIP кошек зоо-магазина
-        print_r((new ZooMagazine($animalHome))->getAnimals(Cat::class));
         
         // отображаем список VIP крокодилов зоо-магазина
         print_r((new ZooMagazine(new AnimalHomeWrapper($animalHome)))->getAnimals(Crocodile::class));
