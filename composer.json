@@ -1,0 +1,16 @@
+{
+    "name": "meir57/oophp",
+    "description": "Test task for OOP & SOLID knowledge",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    },
+    "authors": [
+        {
+            "name": "meir57"
+        }
+    ],
+    "require": {}
+}
